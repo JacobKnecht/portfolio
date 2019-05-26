@@ -11,7 +11,13 @@ const port = 3000;
 app.set('view engine', 'pug');
 
 //Static resources
-app.use(express.static(path.join(__dirname, 'public')));
+app.use('/static', express.static(path.join(__dirname, 'public')));
+
+//Routes
+app.get('/', (req, res) => {
+  console.log('Rendering index.pug');
+  res.render('/index', {projects: data.projects});
+});
 
 //Listen statement
 app.listen(port, () => console.log(`app is listening on port ${port}`));
