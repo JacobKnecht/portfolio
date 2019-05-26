@@ -11,7 +11,7 @@
       ],
       "live_link": "https://jacobknecht.github.io/random-quote-generator/",
       "github_link": "https://github.com/JacobKnecht/random-quote-generator",
-      "image_urls": []
+      "image_urls": ["http://graphics8.nytimes.com/images/2008/05/20/science/20walrus-600.jpg"]
     },
     {
       "id": 1,
@@ -24,7 +24,7 @@
       ],
       "live_link": "https://jacobknecht.github.io/list_pagination_filtering/",
       "github_link": "https://github.com/JacobKnecht/list_pagination_filtering",
-      "image_urls": []
+      "image_urls": ["http://graphics8.nytimes.com/images/2008/05/20/science/20walrus-600.jpg"]
     },
     {
       "id": 2,
@@ -38,7 +38,7 @@
       ],
       "live_link": "https://jacobknecht.github.io/interactive-form/",
       "github_link": "https://github.com/JacobKnecht/interactive-form",
-      "image_urls": []
+      "image_urls": ["http://graphics8.nytimes.com/images/2008/05/20/science/20walrus-600.jpg"]
     },
     {
       "id": 3,
@@ -51,7 +51,7 @@
       ],
       "live_link": "https://jacobknecht.github.io/oop-game-show-app/",
       "github_link": "https://github.com/JacobKnecht/oop-game-show-app",
-      "image_urls": []
+      "image_urls": ["http://graphics8.nytimes.com/images/2008/05/20/science/20walrus-600.jpg"]
     },
     {
       "id": 4,
@@ -65,7 +65,7 @@
       ],
       "live_link": "https://jacobknecht.github.io/public-api-requests/",
       "github_link": "https://github.com/JacobKnecht/public-api-requests",
-      "image_urls": []
+      "image_urls": ["http://graphics8.nytimes.com/images/2008/05/20/science/20walrus-600.jpg"]
     }
   ]
 }
