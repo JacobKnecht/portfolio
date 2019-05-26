@@ -18,6 +18,7 @@ app.get('/', (req, res) => {
   console.log('Rendering index.pug');
   res.render('index', {projects: data.projects});
 });
+console.log(data.projects[2]);
 
 //Listen statement
 app.listen(port, () => console.log(`app is listening on port ${port}`));
