@@ -22,7 +22,8 @@ block content
 
       //- Here's what the Pug for each project example should look like.
 
-      .cell
-        a(href='#')
-          img.thumbnail(src='https://placehold.it/550x550')
-          h5 Title
+      each val in projects
+        .cell
+          a(href=val.live_link, target='_blank')
+            img.thumbnail(src=val.image_urls[0])
+            h5= val.project_name
