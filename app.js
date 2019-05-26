@@ -7,6 +7,9 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
+//Set view engine to pug
+app.set('view engine', 'pug');
+
 //Static resources
 app.use(express.static(path.join(__dirname, 'public')));
 
