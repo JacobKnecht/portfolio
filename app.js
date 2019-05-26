@@ -16,7 +16,7 @@ app.use('/static', express.static(path.join(__dirname, 'public')));
 //Routes
 app.get('/', (req, res) => {
   console.log('Rendering index.pug');
-  res.render('/index', {projects: data.projects});
+  res.render('index', {projects: data.projects});
 });
 
 //Listen statement
