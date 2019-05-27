@@ -15,10 +15,12 @@ app.use('/static', express.static(path.join(__dirname, 'public')));
 
 //Routes
 app.get('/', (req, res) => {
-  console.log('Rendering index.pug');
   res.render('index', {projects: data.projects});
 });
-console.log(data.projects[2]);
+
+app.get('/about', (req, res) => {
+  res.render('about');
+});
 
 //Listen statement
 app.listen(port, () => console.log(`app is listening on port ${port}`));
