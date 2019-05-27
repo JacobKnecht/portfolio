@@ -22,8 +22,8 @@ block content
 
       //- Here's what the Pug for each project example should look like.
 
-      each val in projects
+      each val, index in projects
         .cell
-          a(href=val.live_link, target='_blank')
+          a(href=`/projects/${index}`, target='_blank')
             img.thumbnail(src=val.image_urls[0])
             h5= val.project_name
