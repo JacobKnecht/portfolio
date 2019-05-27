@@ -27,8 +27,19 @@ app.get('/projects/:id', (req, res) => {
   for(let project of data.projects) {
     if(parseInt(project.id) === id) {
       res.render('project', { project });
-    } //else to catch errors
+    }
   }
+});
+
+app.use((req, res, next) => {
+  console.log('The provided URL does not exist as a route for this application');
+  const error = new Error('Not Found');
+  error.status = 404;
+  next(error);
+});
+
+app.use((err, req, res, next) => {
+  res.render('error', {error: err});
 });
 
 //Listen statement
