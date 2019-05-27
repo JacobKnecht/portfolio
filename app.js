@@ -22,5 +22,14 @@ app.get('/about', (req, res) => {
   res.render('about');
 });
 
+app.get('/projects/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+  for(let project of data.projects) {
+    if(parseInt(project.id) === id) {
+      res.render('project', { project });
+    } //else to catch errors
+  }
+});
+
 //Listen statement
 app.listen(port, () => console.log(`app is listening on port ${port}`));
