@@ -148,3 +148,33 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+/************************************************
+* CHANGED & ADDED STYLES
+************************************************/
+.portfolio-me{
+  background: #5c78ed;
+  color: #000;
+}
+
+.portfolio-me p{
+  color: #000;
+}
+
+.portfolio-me a{
+  color: #000;
+}
+
+.portfolio-me a:hover{
+  color: #555;
+}
+
+.button{
+  background-color: #5c78ed;
+  color: #000;
+}
+
+.button:hover{
+  background-color: #869cf9;
+  color: #000;
+}
