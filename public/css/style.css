@@ -152,8 +152,17 @@ a:hover{
 /************************************************
 * CHANGED & ADDED STYLES
 ************************************************/
+
+h1,h2,h3,h4,h5,h6,p,ul{
+  font-family: "Lucida Console", Courier, monospace;
+}
+
 .portfolio-me{
   background: #5c78ed;
+  color: #000;
+}
+
+.portfolio-me h5 {
   color: #000;
 }
 
@@ -170,6 +179,7 @@ a:hover{
 }
 
 .button{
+  font-family: "Lucida Console", Courier, monospace;
   background-color: #5c78ed;
   color: #000;
 }
@@ -177,4 +187,25 @@ a:hover{
 .button:hover{
   background-color: #869cf9;
   color: #000;
+}
+
+article {
+  background: #000;
+  color: #fff;
+}
+
+.portfolio-meta {
+  color: #666;
+}
+
+body {
+  background: #000;
+}
+
+a {
+  color: #fff;
+}
+
+h5 {
+  color: #666;
 }
