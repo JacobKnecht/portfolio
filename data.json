@@ -11,7 +11,12 @@
       ],
       "live_link": "https://jacobknecht.github.io/random-quote-generator/",
       "github_link": "https://github.com/JacobKnecht/random-quote-generator",
-      "image_urls": ["http://graphics8.nytimes.com/images/2008/05/20/science/20walrus-600.jpg"]
+      "image_urls": [
+        "/static/images/project1/proj1_1_550x550.jpg",
+        "/static/images/project1/proj1_2_1200x550.jpg",
+        "/static/images/project1/proj1_3_1200x550.jpg",
+        "/static/images/project1/proj1_4_1200x550.jpg"
+      ]
     },
     {
       "id": 1,
