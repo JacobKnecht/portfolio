@@ -22,12 +22,18 @@ app.get('/about', (req, res) => {
   res.render('about');
 });
 
-app.get('/projects/:id', (req, res) => {
+app.get('/projects/:id', (req, res, next) => {
   const id = parseInt(req.params.id);
+  const ids = [];
   for(let project of data.projects) {
-    if(parseInt(project.id) === id) {
-      res.render('project', { project });
-    }
+    ids.push(parseInt(project.id));
+  }
+  if(ids.includes(id)) {
+    res.render('project', {project: data.projects[id]});
+  } else {
+    const error = new Error('Project Does Not Exist');
+    error.status = 500;
+    next(error);
   }
 });
 
