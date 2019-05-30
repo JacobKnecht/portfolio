@@ -26,6 +26,6 @@ block content
         a.button.expanded(href=project.github_link, target='_blank') GitHub Repo
 
     //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential emplyers will like to see.
-    img.image(src='https://www.zoo.org.au/sites/default/files/styles/zv_retina/public/platypus-underwater-animal-profile-web620.jpg?itok=BUNKVoNM')
-    img.image(src='https://images.pexels.com/photos/624061/pexels-photo-624061.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')
-    img.image(src='https://le-www-live-s.legocdn.com/sc/media/lessons/wedo-2/wedo-projects/images/frogs-metamorphosis-project-image-feb9db40c70bcda57e12f5671d4bc278.jpg?fit=around|530:350&crop=530:350;*,*')
+    img.image(src=project.image_urls[1])
+    img.image(src=project.image_urls[2])
+    img.image(src=project.image_urls[3])
