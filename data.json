@@ -29,7 +29,12 @@
       ],
       "live_link": "https://jacobknecht.github.io/list_pagination_filtering/",
       "github_link": "https://github.com/JacobKnecht/list_pagination_filtering",
-      "image_urls": ["http://graphics8.nytimes.com/images/2008/05/20/science/20walrus-600.jpg"]
+      "image_urls": [
+        "/static/images/project2/proj2_1_550x550.jpg",
+        "/static/images/project2/proj2_2_1200x550.jpg",
+        "/static/images/project2/proj2_3_1200x550.jpg",
+        "/static/images/project2/proj2_4_1200x550.jpg"
+      ]
     },
     {
       "id": 2,
@@ -43,7 +48,12 @@
       ],
       "live_link": "https://jacobknecht.github.io/interactive-form/",
       "github_link": "https://github.com/JacobKnecht/interactive-form",
-      "image_urls": ["http://graphics8.nytimes.com/images/2008/05/20/science/20walrus-600.jpg"]
+      "image_urls": [
+        "/static/images/project3/proj3_1_550x550.jpg",
+        "/static/images/project3/proj3_2_1200x550.jpg",
+        "/static/images/project3/proj3_3_1200x550.jpg",
+        "/static/images/project3/proj3_4_1200x550.jpg"
+      ]
     },
     {
       "id": 3,
@@ -56,7 +66,12 @@
       ],
       "live_link": "https://jacobknecht.github.io/oop-game-show-app/",
       "github_link": "https://github.com/JacobKnecht/oop-game-show-app",
-      "image_urls": ["http://graphics8.nytimes.com/images/2008/05/20/science/20walrus-600.jpg"]
+      "image_urls": [
+        "/static/images/project4/proj4_1_550x550.jpg",
+        "/static/images/project4/proj4_2_1200x550.jpg",
+        "/static/images/project4/proj4_3_1200x550.jpg",
+        "/static/images/project4/proj4_4_1200x550.jpg"
+      ]
     },
     {
       "id": 4,
@@ -70,7 +85,12 @@
       ],
       "live_link": "https://jacobknecht.github.io/public-api-requests/",
       "github_link": "https://github.com/JacobKnecht/public-api-requests",
-      "image_urls": ["http://graphics8.nytimes.com/images/2008/05/20/science/20walrus-600.jpg"]
+      "image_urls": [
+        "/static/images/project5/proj5_1_550x550.jpg",
+        "/static/images/project5/proj5_2_1200x550.jpg",
+        "/static/images/project5/proj5_3_1200x550.jpg",
+        "/static/images/project5/proj5_4_1200x550.jpg"
+      ]
     }
   ]
 }
