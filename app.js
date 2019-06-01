@@ -13,15 +13,17 @@ app.set('view engine', 'pug');
 //Static resources
 app.use('/static', express.static(path.join(__dirname, 'public')));
 
-//Routes
+//Index/'Home' page route
 app.get('/', (req, res) => {
   res.render('index', {projects: data.projects});
 });
 
+//'About' page route
 app.get('/about', (req, res) => {
   res.render('about');
 });
 
+//'Projects' page route(s)
 app.get('/projects/:id', (req, res, next) => {
   const id = parseInt(req.params.id);
   const ids = [];
@@ -37,6 +39,7 @@ app.get('/projects/:id', (req, res, next) => {
   }
 });
 
+//Default 404 route handler
 app.use((req, res, next) => {
   console.log('The provided URL does not exist as a route for this application');
   const error = new Error('Not Found');
@@ -44,6 +47,7 @@ app.use((req, res, next) => {
   next(error);
 });
 
+//Error handler
 app.use((err, req, res, next) => {
   res.render('error', {error: err});
 });
