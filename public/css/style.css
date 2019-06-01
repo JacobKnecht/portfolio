@@ -166,25 +166,25 @@ h1,h2,h3,h4,h5,h6,p,ul{
   color: #000;
 }
 
-.portfolio-me p{
+.portfolio-me p {
   color: #000;
 }
 
-.portfolio-me a{
+.portfolio-me a {
   color: #000;
 }
 
-.portfolio-me a:hover{
+.portfolio-me a:hover {
   color: #555;
 }
 
-.button{
+.button {
   font-family: "Lucida Console", Courier, monospace;
   background-color: #5c78ed;
   color: #000;
 }
 
-.button:hover{
+.button:hover {
   background-color: #869cf9;
   color: #000;
 }
