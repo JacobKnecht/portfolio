@@ -17,34 +17,34 @@ notify the user.
 
 Style Changes - The following is a list of the CSS classes and properties that
 were changed to personalize the project:
-1. h1,h2,h3,h4,h5,h6,p,ul :
-..* font-family: "Lucida Console", Courier, monospace;
-2. .portfolio-me :
-..* background: #5c78ed;
-..* color: #000;
-3. .portfolio-me h5 :
-..* color: #000;
-4. .portfolio-me p :
-..* color: #000;
-5. .portfolio-me a :
-..* color: #000;
-6. .portfolio-me a:hover :
-..* color: #555;
-7. .button :
-..* font-family: "Lucida Console", Courier, monospace;
-..* background-color: #5c78ed;
-..* color: #000;
-8. .button:hover :
-..* background-color: #869cf9;
-..* color: #000;
-9. article :
-..* background: #000;
-..* color: #fff;
-10. .portfolio-meta :
-..* color: #666;
-11. body :
-..* background: #000;
-12. a :
-..* color: #fff;
-13. h5 :
-..* color: #666;
+1. h1,h2,h3,h4,h5,h6,p,ul :  
+* font-family: "Lucida Console", Courier, monospace;  
+2. .portfolio-me :  
+* background: #5c78ed;  
+* color: #000;  
+3. .portfolio-me h5 :  
+* color: #000;  
+4. .portfolio-me p :  
+* color: #000;  
+5. .portfolio-me a :  
+* color: #000;
+6. .portfolio-me a:hover :  
+* color: #555;  
+7. .button :  
+* font-family: "Lucida Console", Courier, monospace;  
+* background-color: #5c78ed;  
+* color: #000;  
+8. .button:hover :  
+* background-color: #869cf9;  
+* color: #000;  
+9. article :  
+* background: #000;  
+* color: #fff;  
+10. .portfolio-meta :  
+* color: #666;  
+11. body :  
+* background: #000;  
+12. a :  
+* color: #fff;  
+13. h5 :  
+* color: #666;
