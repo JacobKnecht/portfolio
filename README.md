@@ -48,3 +48,5 @@ were changed to personalize the project:
 * color: #fff;  
 13. h5 :  
 * color: #666;
+14. .off-canvas-content > h1,h2 :  
+* color: #fff;
