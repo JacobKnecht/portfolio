@@ -209,3 +209,7 @@ a {
 h5 {
   color: #666;
 }
+
+.off-canvas-content > h1,h2 {
+  color: #fff;
+}
