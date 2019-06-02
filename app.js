@@ -39,9 +39,13 @@ app.get('/projects/:id', (req, res, next) => {
   }
 });
 
-//Default 404 route handler
+//Handler to ignore requests for favicon.ico
+//such requests were triggering the 404 'not found' middleware though the
+//browser would render correctly matched routes
+app.get('/favicon.ico', (req, res) => res.status(204));
+
+//Default 404 'Not Found' route handler
 app.use((req, res, next) => {
-  console.log('The provided URL does not exist as a route for this application');
   const error = new Error('Not Found');
   error.status = 404;
   next(error);
@@ -50,6 +54,7 @@ app.use((req, res, next) => {
 //Error handler
 app.use((err, req, res, next) => {
   res.render('error', {error: err});
+  console.log('The provided URL does not exist as a route for this application');
 });
 
 //Listen statement
