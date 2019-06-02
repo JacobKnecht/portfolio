@@ -16,6 +16,6 @@ block content
 
       each val, index in projects
         .cell
-          a(href=`/projects/${index}`, target='_blank')
+          a(href=`/projects/${index}`)
             img.thumbnail(src=val.image_urls[0])
             h5= val.project_name
