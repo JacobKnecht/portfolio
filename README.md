@@ -14,3 +14,9 @@ interpolates that information into the Pug files.The site also provides error
 handling by utilizing middleware that is designed to catch default 404 route
 errors; if a route is not found/does not exist, an error page is rendered to
 notify the user.
+
+Deployment - To deploy the project, simply download the project files, then
+navigate to the project directory in the terminal. Run the command 'npm install'
+to install the project dependencies, then run the command 'npm start' to run the
+application. The application will be running on port 3000, accessible through the
+URL localhost:3000 via web browser.
